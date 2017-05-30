@@ -22,6 +22,7 @@ GameObject:
   - 114: {fileID: 114000011038595476}
   - 96: {fileID: 96000011741643714}
   - 50: {fileID: 50000014168851562}
+  - 114: {fileID: 114000014137918408}
   m_Layer: 0
   m_Name: BulletP1
   m_TagString: Untagged
@@ -152,6 +153,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BulletSpeed: 25
   rb: {fileID: 50000014168851562}
+  hit: {fileID: 100000, guid: a381ded06c204a54e909a18e574f7436, type: 2}
+--- !u!114 &114000014137918408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013385490996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c2850b5732cb845a8ba9db97dd436d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortingLayerName: Default
+  SortingOrder: 100
 --- !u!212 &212000012875706770
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -180,7 +195,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: 21300000, guid: 37c7f8bf5737f004a95cdae2fef19dcc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
